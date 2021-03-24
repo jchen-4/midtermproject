@@ -23,7 +23,7 @@ body {
   src: url(willowbody_0-webfont.ttf);
 }
 @@font-face {
-  font-family: unicode.compacta;
+  font-family: Compacta;
   src: url(unicode.compacta.ttf);
 }
 #title {
@@ -31,14 +31,14 @@ body {
   justify-content: center;
   font-size: 40px;
   color: #f8db4a;
-  font-family: unicode.compacta;
+  font-family: Compacta;
   margin: 5px;
 }
 .athena {
   position: relative;
 }
 .athena .athena_name{
-  font-family: unicode.compacta;
+  font-family: Compacta;
   font-size: 30px;
   color: red;
   margin-left: 10px;
@@ -86,7 +86,7 @@ body {
 }
 
 .wilhelm .wilhelm_name{
-  font-family: unicode.compacta;
+  font-family: Compacta;
   font-size: 30px;
   color: red;
   margin-left: 10px;
@@ -128,7 +128,7 @@ body {
   background-color: rgba(0,0,0,0.3);
 }
 .nisha .nisha_name{
-  font-family: unicode.compacta;
+  font-family: Compacta;
   font-size: 30px;
   color: red;
   margin-left: 10px;
@@ -170,7 +170,7 @@ body {
   background-color: rgba(0,0,0,0.3);
 }
 .claptrap .claptrap_name{
-  font-family: unicode.compacta;
+  font-family: Compacta;
   font-size: 30px;
   color: red;
   margin-left: 10px;
@@ -211,7 +211,7 @@ body {
   background-color: rgba(0,0,0,0.3);
 }
 .jack .jack_name{
-  font-family: unicode.compacta;
+  font-family: Compacta;
   font-size: 30px;
   color: red;
   margin-left: 10px;
