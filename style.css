@@ -30,6 +30,7 @@ body {
   position: fixed;
   height: auto;
   left: 500px;
+  z-index: 1
 }
 .psycho img{
   width: 10%;
