@@ -2,9 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 5px;
-  background-image: url("https://wallpapercave.com/wp/wp3432011.jpg");
+  margin: 0px;
+  background: linear-gradient(rgba(22, 87, 217, 0.8), rgba(1, 4, 10, 0.9));
 
+
+}
+.title {
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+}
+.title:before {
+  content:"";
+  position:absolute;
+  width:100vw;
+  height:300vh;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.4;
+  background-image: url("https://wallpapercave.com/wp/wp3432011.jpg");
+  background-repeat: repeat;
 }
 .psycho a {
   display: flex;
@@ -46,7 +64,7 @@ body {
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 21%;
+  width: 22%;
   height: 100%;
   background-color: rgba(0,255,255,0.5);
   opacity: 0;
@@ -56,7 +74,7 @@ body {
   opacity: 1;
 }
 .athena img {
-  width: 18%;
+  width: 20%;
   height: auto;
   margin: 10px;
   margin-left: 25px;
@@ -136,8 +154,8 @@ body {
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 18%;
-  height: 51%;
+  width: 21%;
+  height: 58%;
   background-color: rgba(0,255,255,0.5);
   opacity: 0;
   border-radius: 25px;
@@ -146,7 +164,7 @@ body {
   opacity: 1;
 }
 .nisha img {
-  width: 30%;
+  width: 20%;
   height: auto;
   margin: 10px;
   margin-left: 15px;
@@ -188,7 +206,7 @@ body {
   opacity: 1;
 }
 .claptrap img {
-  width: 28%;
+  width: 20%;
   height: auto;
   margin: 10px;
   margin-left: 20px;
@@ -219,8 +237,8 @@ body {
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 20%;
-  height: 65%;
+  width: 22%;
+  height: 68%;
   background-color: rgba(0,255,255,0.5);
   opacity: 0;
   border-radius: 25px;
@@ -229,7 +247,7 @@ body {
   opacity: 1;
 }
 .jack img {
-  width: 30%;
+  width: 20%;
   height: auto;
   margin: 10px;
   margin-left: 20px;
