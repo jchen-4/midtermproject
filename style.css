@@ -45,7 +45,7 @@ body {
   font-family: Compacta;
   src: url(unicode.compacta.ttf);
 }
-#title {
+#maintitle {
   display: flex;
   justify-content: center;
   font-size: 40px;
